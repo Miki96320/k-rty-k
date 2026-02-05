@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-color: bisque;
+}
+.image-card{
+    width: 300px;
+    background-color: greenyellow;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+.image-card img{
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+.bedge{
+    position:absolute;
+    right: 10px;
+    top: 10px;
+
+    padding: 4px 8px;
+    background-color: red;
+    border-radius: 10px;
+    color: brown;
+}   
